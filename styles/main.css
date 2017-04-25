@@ -1,0 +1,91 @@
+html {
+	font-family: Arial, sans-serif;
+}
+
+nav {
+	font-size: 25px;	
+	background-color: LightGrey;
+	height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;	
+	text-align: right;	
+}
+
+body {	
+	font-size: 20px;	
+}
+
+nav span {
+	word-spacing: 15px;
+}
+
+nav span a:link {
+	color: Purple;
+}
+
+.title {
+	float: left;	
+}
+
+nav a {
+	text-decoration: none;
+}
+
+body label {
+	font-size: 20px;
+}
+
+main {
+	padding-left: 100px;
+	padding-top: 30px;
+
+}
+
+span {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+section span {
+	border-width: 1px;
+	border-style: solid;
+	border-color: LightGrey;
+	border-radius: 5px;	
+}
+
+.search-box {	
+	width: 300px;
+	height: 40px;
+	font-size: 25px
+}
+
+.magnifying-glass {	
+	width: 40px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: LightGrey;
+	border-radius: 5px;	
+}
+
+ul {
+	list-style-type: none;
+	color: Grey;	
+}
+
+ul a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.space {
+	width: 100px;
+}
+
+form {
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

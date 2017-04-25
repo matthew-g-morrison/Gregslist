@@ -4,24 +4,25 @@ html {
 
 nav {
 	font-size: 25px;	
-	background-color: LightGrey;
+	background-color: rgb(238, 238, 238);
 	height: 50px;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 20px;	
-	text-align: right;	
+	text-align: right;
+	border-bottom: 1px rgb(221, 221, 221) solid;
 }
 
 body {	
-	font-size: 20px;	
+	font-size: 17px;	
 }
 
 nav span {
 	word-spacing: 15px;
 }
 
-nav span a:link {
-	color: Purple;
+a:link {
+	color: rgb(85, 26, 139);
 }
 
 .title {
@@ -39,7 +40,6 @@ body label {
 main {
 	padding-left: 100px;
 	padding-top: 30px;
-
 }
 
 span {
@@ -53,17 +53,21 @@ section span {
 	border-width: 1px;
 	border-style: solid;
 	border-color: LightGrey;
-	border-radius: 5px;	
+	border-radius: 3px;	
 }
 
 .search-box {	
-	width: 300px;
-	height: 40px;
-	font-size: 25px
+	width: 400px;
+	height: 30px;
+	font-size: 20px;
+	padding-left: 5px;
 }
 
 .magnifying-glass {	
-	width: 40px;
+	width: 30px;	
+}
+
+.search-box, .magnifying-glass {
 	border-width: 1px;
 	border-style: solid;
 	border-color: LightGrey;
@@ -73,6 +77,9 @@ section span {
 ul {
 	list-style-type: none;
 	color: Grey;	
+	position: left;
+	margin: 0;
+	padding: 0;
 }
 
 ul a {
@@ -80,12 +87,10 @@ ul a {
 	font-weight: bold;
 }
 
-.space {
-	width: 100px;
+form, section {
+	padding-bottom: 20px;	
 }
 
-form {
-	padding-right: 10px;
+li {
 	padding-top: 10px;
-	padding-bottom: 10px;
 }
